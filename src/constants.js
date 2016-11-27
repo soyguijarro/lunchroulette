@@ -1,0 +1,9 @@
+export const ERRORS = {
+  SEARCH_AGAIN: 'SEARCH_AGAIN',
+  NO_RESULTS: 'NO_RESULTS',
+  GENERIC: 'GENERIC'
+};
+
+export const SEARCH_RADIUS_IN_METERS = 500;
+
+export const MAX_PHOTO_WIDTH_IN_PX = 800;

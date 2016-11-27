@@ -1,0 +1,37 @@
+{
+  "name": "lunchroulette",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Search for random restaurants nearby",
+  "devDependencies": {
+    "gh-pages": "0.12.0",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soyguijarro/lunchroulette.git"
+  },
+  "author": {
+    "name": "Ramón Guijarro",
+    "email": "hola@soyguijarro.com",
+    "url": "http://soyguijarro.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyguijarro/lunchroulette/issues"
+  },
+  "homepage": "https://soyguijarro.github.io/lunchroulette"
+}
