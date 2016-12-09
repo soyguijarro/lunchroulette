@@ -54,8 +54,6 @@ class App extends Component {
     const isCurrentRestaurant = currentRestaurant &&
       getRestaurantId(restaurant) === currentRestaurant.id;
 
-    console.log(isCurrentRestaurant);
-
     if (isCurrentRestaurant) return Promise.reject(ERRORS.SEARCH_AGAIN);
     return restaurant;
   }
@@ -76,7 +74,6 @@ class App extends Component {
       ]))
       .then(data => this.setRestaurantData(...data))
       .catch(error => {
-        console.log(error);
         if (error === ERRORS.SEARCH_AGAIN) {
           return this.getRandomRestaurantNearby();
         }
