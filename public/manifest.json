@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "Lunchroulette",
+  "description": "Search for random restaurants nearby",
+  "lang": "en-US",
+  "launch_path": "/index.html",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "developer": {
+    "name": "Ramón Guijarro",
+    "url": "http://soyguijarro.com"
+  },
+  "background_color": "#1E88E5",
+  "theme_color": "#1E88E5",
+  "display": "standalone",
+  "orientation": "portrait"
+}
