@@ -10,9 +10,8 @@ const getRestaurantPhotoUrl = (restaurant) => {
   if (!photos || !photos.length) return undefined;
 
   const options = {
-    maxWidth: window.innerWidth < MAX_PHOTO_WIDTH_IN_PX ?
-      window.innerWidth : MAX_PHOTO_WIDTH_IN_PX,
-  }
+    maxWidth: Math.min(window.innerWidth, MAX_PHOTO_WIDTH_IN_PX)
+  };
   return photos[0].getUrl(options);
 };
 
