@@ -14,7 +14,7 @@ In order to get restaurant details and distance information, [Google Places](htt
 
 ## Motivation
 
-The project started pretty much as a joke at the office. We were always arguing about where to go for lunch, so at some point I made a very simple website that picked a random name from a harcoded list of restaurants that we knew in the area. That solved our little problem, but then my coworkers jokingly complained that no information about the suggested restaurant was shown, like a photo, how far it was and so on. I ended up taking a look at the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/) and realized that it was not that difficult to do, so I went ahead and built this web app as an opportunity to play around with the API.
+The project started pretty much as a joke at the office. We were always arguing about where to go for lunch, so at some point I made a very simple website that picked a random name from a hardcoded list of restaurants that we knew in the area. That solved our little problem, but then my coworkers jokingly complained that no information about the suggested restaurant was shown, like a photo, how far it was and so on. I ended up taking a look at the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/) and realized that it was not that difficult to do, so I went ahead and built this web app as an opportunity to play around with the API.
 
 
 ## Acknowledgments
