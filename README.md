@@ -22,6 +22,6 @@ The project started pretty much as a joke at the office. We were always arguing 
 The design of the web app is heavily inspired by the [Material design](https://material.google.com/) guidelines in general and the [Google Maps](http://maps.google.com) interface in particular. The app icon was generated with help of [Android Material Icon Generator](https://android-material-icon-generator.bitdroid.de/).
 
 
-## Issues and suggestions
+## License and issues
 
-If you find any errors or have suggestions for this project, please [open an issue](https://github.com/soyguijarro/lunchroulette/issues) and I'll do my best to help.
+The source code of the web app is released under the MIT License. The full text of the license is available in the [LICENSE file](LICENSE). If you find any errors or have suggestions for this project, please [open an issue](https://github.com/soyguijarro/lunchroulette/issues) and I'll do my best to help.
