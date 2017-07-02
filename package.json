@@ -3,22 +3,13 @@
   "version": "1.1.0",
   "private": true,
   "description": "Search for random restaurants nearby",
-  "devDependencies": {
-    "gh-pages": "0.12.0",
-    "react-scripts": "0.8.4"
-  },
-  "dependencies": {
-    "normalize.css": "^5.0.0",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "postversion": "git push --follow-tags origin master && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -33,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/soyguijarro/lunchroulette/issues"
   },
-  "homepage": "https://soyguijarro.github.io/lunchroulette"
+  "homepage": "https://soyguijarro.github.io/lunchroulette",
+  "dependencies": {
+    "normalize.css": "7.0.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  },
+  "devDependencies": {
+    "gh-pages": "1.0.0",
+    "react-scripts": "1.0.10"
+  }
 }
