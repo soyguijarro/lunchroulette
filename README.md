@@ -1,3 +1,5 @@
+> :warning: **This app is no longer maintained**
+
 # Lunchroulette
 
 [![Screenshot](screenshot.gif)](https://soyguijarro.github.io/lunchroulette/)
